@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Documents/cold squard card"
+		},
+		{
+			"path": "../../Documents/productsection/img"
+		},
+		{
+			"path": "../../Documents/footer section"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "code-squad"
+	}
+}

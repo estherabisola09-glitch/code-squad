@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat";
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  background-color: white;
+  
+}
+
+.nav-logo{
+  display: flex;
+  align-items: center;
+
+}
+.nav-desc{
+  font-size: 20px;
+}
+.sign-in{
+  margin-right: 20px;
+   color: rgb(112, 110, 110);   
+}
+
+.sign-in:hover{
+  color: #009600;
+}
+.nav-english i{
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px 30px;
+  font-size: 15px;
+
+}
+
+.nav-english:hover{
+  color: #009600;
+}
+
+.sign-up{
+  color: rgb(112, 110, 110);
+  margin-right: 15px;
+}
+.sign-up:hover{
+  color: #009600;
+}
+.add-property{
+  height: 45px;
+  background-color: grey;
+  color: white;
+  width: 120px;
+  border: none;
+}
+
+.add-property:hover{
+  text-decoration: underline;
+  background-color: rgb(85, 85, 85);
+}
+
+.searchBtn{
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 50px;
+  border: 2px solid #009600d5;
+  display: flex;
+
+}
+.searchBtn i{
+  /* padding-left: -50px; */
+  /* position: relative;
+  left: -20px; */
+  color: #009600;
+}
+
+.searchBtn input{
+  border: none;
+  width: 500px;
+  padding-left: 30px;
+  outline: none;
+}
+
+.nav-menu{
+margin-right: 8px;
+  padding: 10px 30px;
+}
+
+.nav-menu:hover{
+  background-color: grey;
+  color: aliceblue;
+  padding: 10px 30px;
+}
+
+.searchBtn{
+  color: black;
+}
+
+.nav-bar{
+  display: flex;
+  text-align: center;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(65, 61, 61);
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.icon-button{
+ display: flex;
+ align-items: center;
+  
+}
+.nav-menu{
+  display: flex;
+}
+
+
+
+
+.header-container {
+  background:url("https://plus.unsplash.com/premium_photo-1674504329698-e407a536de29?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2FnbyUyMGlsbGlub2lzJTIwbGFuZHNjYXBlfGVufDB8fDB8fHww");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  height: 100vh;
+}
+
+.text-items {
+  margin-top: 12%;
+  background-color: rgba(0, 0, 0, 0.507);
+  padding: 100px 190px;
+  margin-bottom: 10%;
+  color: white;
+  text-align: center;
+}
+
+.text-items h1 {
+  font-weight: 700;
+  font-size: 70px;
+  font-family: "montserrat";
+  padding-bottom: 10px;
+}
+
+.text-items p {
+  font-size: 20px;
+  font-family: "Inter";
+  padding-bottom: 10px;
+}
+
+.start {
+  padding: 10px 35px;
+  background: none;
+  border: 2px solid white;
+  border-radius: 3px;
+}
+
+.start a {
+  text-decoration: none;
+  color: white;
+  font-family: "Inter";
+}
+
+.start:hover {
+  background-color: #f26f41;
+  color: #000000;
+  transition: 0.3s;
+}
+.search-button{
+  width: 700px;
+  height: 80px;
+  border-radius: 70px;
+  border: none;
+  padding: 20px 20px;
+}
+
+
+.explore {
+  font-weight: 500;
+  font-family: "montserrat";
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 80px;
+  margin-top: px;
+  color: #333;
+}
+
+.name {
+  font-weight: 500;
+  font-family: "montserrat";
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+p {
+  font-weight: 200;
+  font-family: "montserrat";
+}
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.container {
+  border: 2px solid gray;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 20px;
+  margin: 0;
+  border: solid 2px #333;
+  position: relative;
+}
+
+.container:hover{
+  border: 1px solid grey;
+  top: -10px;
+}
+
+.cards {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px 20px 0 0;
+  z-index: 0;
+}
+.name {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+}
+
+.view {
+  margin-left: 45%;
+  margin-top: 30px;
+  background-color: #177e17;
+  width: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration-thickness: 100px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(6, 56, 6);
+  transition: 1s;
+ 
+}
+
+.full-products{
+    text-align: center;
+    margin-top: 100px;
+    font-family: "montserrat";
+    margin-bottom: 100px;
+}
+
+.full-products h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #3a3a3a;
+    padding-bottom: 30px;
+}  
+
+.full-products p{
+    font-size: 28px;
+    color: #3a3a3a;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 400px;
+    align-items: center;
+    background-color: #c4c4c41f;
+    margin: 50px 100px;
+    text-align: left;
+}
+
+.box-2{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.box-2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.box-3{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 400px;
+    align-items: center;
+    background-color: #c4c4c41f;
+    margin: 0px 100px;
+    text-align: left;
+}
+.innerbox1{
+    margin-left: 100px;
+}
+
+.innerbox1 .right{
+    margin-left: 0;
+}
+
+.innerbox2 img{
+    /* margin-right: 100px; */
+    margin-left: 0px;
+    width: 854px;
+}
+
+.innerbox1 h2{
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-family: "montserrat";
+    font-weight: 400;
+}
+
+.innerbox1 p{
+    font-family: "montserrat";
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.innerbox1 a{
+    text-decoration: none;
+    font-family: "montserrat";
+    font-size: 25px;
+    color: #005ac0d7;
+    font-weight: 600
+}
+
+.innerbox1 a:hover{
+    color: #013c80d7;
+    text-decoration: underline;
+}
+
+ .mainimg{
+    width: 900px;
+    height: 400px;
+    /* margin-left: 150px; */
+} 
+
+.next-heading{
+    padding-top: 100px;
+}
+
+.next-p{
+    padding-bottom: 100px;
+}
+
+.log{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px 40px;
+    font-size: 25px;
+    border: none;
+}
+
+.log:hover{
+    background-color: #3a3a3a;
+}
+
+
+.image-icon {
+    display: flex;
+    align-items: center;
+
+}
+
+.image-icon p{
+    margin-left: 10px;
+    font-size: 50px;
+}
+.image-icon img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    margin: 75px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.image-icon a {
+    font-size: 50px;
+}
+
+.cright {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-left: 100px;
+    padding-right: 100px;
+
+}
+
+.main {
+    padding: 20px;
+     background-color:  #ebebeb;
+     height: 50vh;
+}
+.same a{
+   line-height: 40px;
+}
